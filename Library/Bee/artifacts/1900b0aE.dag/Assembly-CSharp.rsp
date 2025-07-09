@@ -357,6 +357,7 @@
 "Assets/Scripts/HpBar.cs"
 "Assets/Scripts/Opfor.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Title.cs"
 -langversion:9.0
 /deterministic
 /optimize+

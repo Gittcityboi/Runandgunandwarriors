@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B8FE953C-84F0-B6A6-4455-22977FB3B575}</ProjectGuid>
+    <ProjectGuid>{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\HpBar.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Title.cs" />
     <Compile Include="Assets\Scripts\Opfor.cs" />
   </ItemGroup>
   <ItemGroup>

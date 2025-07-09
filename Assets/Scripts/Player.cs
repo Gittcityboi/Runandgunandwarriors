@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         gameObject.SetActive(false);
         isDead = true;
     }
-    // 남은 필요 기능? - 이동 애니메이션, 총기와 상호작용(발사, 재장전, 획득), 데미지 받는 경우(체력바 조정)
+    // 남은 필요 기능? - 이동 애니메이션(Asset 찾아서), 총기와 상호작용(발사, 재장전, 획득), 데미지 받는 경우(체력바 조정)
 
 }
 

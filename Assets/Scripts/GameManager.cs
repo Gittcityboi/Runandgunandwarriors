@@ -9,13 +9,13 @@ public class GameManager : MonoBehaviour
 {
     private Player player;
     
-    // Start is called before the first frame update
+    
     void Start()
     {
-        GetComponent<Player>();
+        GetComponent<Player>(); //IsDead 값 받기 위해 GetComp - Player 실행
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         if(player.isDead == true)
