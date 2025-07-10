@@ -10,7 +10,7 @@ public class Title : MonoBehaviour
 {
     public void ClickStart()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Main"); //Start Click Ω√ Main Scene »£√‚
     }
     
     // Start is called before the first frame update
