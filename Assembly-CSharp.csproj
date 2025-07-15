@@ -61,11 +61,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\HpBar.cs" />
+    <Compile Include="Assets\Scripts\HpText.cs" />
+    <Compile Include="Assets\Scripts\AR.cs" />
     <Compile Include="Assets\Scripts\Guns.cs" />
     <Compile Include="Assets\Scripts\Bullets.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Title.cs" />
+    <Compile Include="Assets\Scripts\SMG.cs" />
+    <Compile Include="Assets\Scripts\SG.cs" />
+    <Compile Include="Assets\Scripts\SR.cs" />
     <Compile Include="Assets\Scripts\Opfor.cs" />
   </ItemGroup>
   <ItemGroup>

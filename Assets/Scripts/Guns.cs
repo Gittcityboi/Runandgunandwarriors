@@ -13,12 +13,6 @@ public class Guns : MonoBehaviour
     public float damage;
     private float fire_rate = 0f;
 
-
-    public Guns smg;
-    public Guns ar;
-    public Guns sr;
-    public Guns sg;
-
     bool isSg = false;
     bool wGun = false;
 
@@ -33,15 +27,6 @@ public class Guns : MonoBehaviour
            또한 기능적으로 Bullet을 마우스 방향으로 발사, UI와 상호작용 해 현재 장착 총기 및 상태 표현
            플레이어 따라다니기 구현해야 함
          */
-        smg.max_ammo = 45;
-        ar.max_ammo = 30;
-        sr.max_ammo = 10;
-        sg.max_ammo = 7;
-
-        smg.fire_rate = 0.1f;
-        ar.fire_rate = 0.3f;
-        sr.fire_rate = 1f;
-        sg.fire_rate = 1f;
     }
 
     // Update is called once per frame
@@ -58,29 +43,21 @@ public class Guns : MonoBehaviour
 
     public void Smg()
     {
-        cur_ammo = smg.max_ammo;
-        fire_rate = smg.fire_rate;
         isSg = false;
         wGun = true;
     }
     public void Ar()
     {
-        cur_ammo = ar.max_ammo;
-        fire_rate = ar.fire_rate;
         isSg = false;
         wGun = true;
     }
     public void Sr()
     {
-        cur_ammo = sr.max_ammo;
-        fire_rate = sr.fire_rate;
         isSg = false;
         wGun = true;
     }
     public void Sg()
     {
-        cur_ammo = sg.max_ammo;
-        fire_rate = sg.fire_rate;
         isSg = true;
         wGun = true;
     }
@@ -88,8 +65,8 @@ public class Guns : MonoBehaviour
     public void Reload()
     {
         /*if문 사용 - 
-         sg 아니면 3초 정도 걸리고 총알 최대로
-         sg면 1초 마다 1발씩 장전
+         sg 아니면 1.5초 정도 걸리고 총알 최대로
+         sg면 0.5초에 한 발 장전
          */
         if (isSg)
         {

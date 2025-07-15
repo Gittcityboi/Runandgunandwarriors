@@ -13,8 +13,8 @@ public class HpBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Player>();
         maxHP = player.hp;
+        hpBar.value = curHP;
         //들어갈 기능 - 체력 수치 표기
     }
 
@@ -22,7 +22,7 @@ public class HpBar : MonoBehaviour
     void Update()
     {
         curHP = player.hp;
-        hpBar.value = curHP / maxHP;
+        hpBar.value = curHP;
     }
     
 }

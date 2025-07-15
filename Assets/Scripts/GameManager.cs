@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
      그 총기를 획득하게 되는 방식)
      * 2. 엔딩 씬 조건 판단 후 엔딩 씬 호출
      * 3. 플레이어 따라가는 카메라 구현 - 완
-     * 4. UI 조정 GameManager가 담당.
+     * 4. UI 조정 GameManager가 담당. - 분할해서 작업 중, 마지막에 병합할지 말지 결정
 
 
     */

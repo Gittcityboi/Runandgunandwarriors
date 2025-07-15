@@ -11,11 +11,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 1f;
     public float hp = 100f;
     [SerializeField] private Slider HpBar;
+    float damage;
 
     private Rigidbody playerRigidbody;
     public bool isDead = false;
     private Animator animator;
-    int damage;
+    [SerializeField] private Guns guns;
 
     void Start()
     {
@@ -36,11 +37,27 @@ public class Player : MonoBehaviour
         Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
         playerRigidbody.velocity = newVelocity;
 
+
         if (hp <= 0)
         {
             Dead();
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // 트리거로 들어온 오브젝트의 태그가 "Bullet"인지 확인
+        if (other.CompareTag("Bullet"))
+        {
+
+            // 여기에 Bullet 트리거와 닿았을 때 실행할 코드를 작성하세요.
+            // 예: Bullet 오브젝트 비활성화, 특수 효과 발생 등
+            damage = other.GetComponent<Bullets>().damage;
+            Damaged();
+            Destroy(other.gameObject);
+        }
+    }
+
 
     public void Damaged() //데미지 함수(체력바 damage만큼 조정 - damage 변수 지정 위치?)
     {
