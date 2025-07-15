@@ -10,6 +10,7 @@ TagManager:
   - SG
   - SR
   - Guns
+  - Opfor
   layers:
   - Default
   - TransparentFX

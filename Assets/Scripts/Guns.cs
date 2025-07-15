@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Guns : MonoBehaviour
 {
-    private Bullets bullet;
+    [SerializeField] private Bullets bullet;
     private int magazine;
     public int max_ammo;
     public int cur_ammo;

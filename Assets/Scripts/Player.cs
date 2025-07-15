@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     //변수 설정 - 속도, 체력
     [SerializeField] private float speed = 1f;
     public float hp = 100f;
-    [SerializeField] private Slider HpBar;
-    float damage;
+    public float damage;
+    private Vector3 moveDirection;
 
     private Rigidbody playerRigidbody;
     public bool isDead = false;
@@ -27,17 +27,7 @@ public class Player : MonoBehaviour
 
     void Update()
     { 
-        //이동 기능
-        float xInput = Input.GetAxisRaw("Horizontal");
-        float zInput = Input.GetAxisRaw("Vertical");
-
-        float xSpeed = xInput * speed;
-        float zSpeed = zInput * speed;
-
-        Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
-        playerRigidbody.velocity = newVelocity;
-
-
+        
         if (hp <= 0)
         {
             Dead();
@@ -68,9 +58,9 @@ public class Player : MonoBehaviour
 
     public void Dead() //사망 함수
     {
-        gameObject.SetActive(false);
         isDead = true;
         animator.SetTrigger("Dead");
+        gameObject.SetActive(false);
     }
     // 남은 필요 기능? - 이동 애니메이션(Asset 찾아서), 총기와 상호작용(발사, 재장전, 획득), 데미지 받는 경우(체력바 조정)
 

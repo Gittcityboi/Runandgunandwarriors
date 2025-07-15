@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\",
+  "WorkspaceRootPath": "C:\\Users\\alstj\\Documents\\GitHub\\Runandgunandwarriors\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|c:\\users\\owner\\documents\\github\\runandgunandwarriors\\assets\\scripts\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\bullets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\hptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\opfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\opfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\assets\\scripts\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|c:\\users\\alstj\\documents\\github\\runandgunandwarriors\\assets\\scripts\\gunfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6682DD5-D83A-845E-8195-CF0F7B0D6D08}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gunfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HpText.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\HpText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HpText.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\HpText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HpText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T15:47:34.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bullets.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Bullets.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullets.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Bullets.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T11:51:21.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Opfor.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Opfor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Opfor.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Opfor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Opfor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:21:11.112Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Guns.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Guns.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Guns.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Guns.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Guns.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvygAAAA2AAAAAAAAAA==",
+              "Title": "GunFollower.cs",
+              "DocumentMoniker": "C:\\Users\\alstj\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\GunFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GunFollower.cs",
+              "ToolTip": "C:\\Users\\alstj\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\GunFollower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GunFollower.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T04:26:46.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HpBar.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\HpBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HpBar.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\HpBar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HpBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T07:04:56.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwEAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T05:12:27.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Title.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Title.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Title.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\Title.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Title.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T06:36:15.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\owner\\Documents\\GitHub\\Runandgunandwarriors\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T05:22:47.577Z",
+              "WhenOpened": "2025-07-15T14:30:08.005Z",
               "EditorCaption": ""
             }
           ]
